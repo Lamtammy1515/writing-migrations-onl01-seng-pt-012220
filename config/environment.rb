@@ -18,3 +18,6 @@ def drop_db
     DB.execute("DROP TABLE #{table}")
   end
 end
+
+require_relative "../migrate/01_create_students.rb"
+require_relative '../config/environment'

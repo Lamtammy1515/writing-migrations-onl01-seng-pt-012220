@@ -19,5 +19,4 @@ def drop_db
   end
 end
 
-require_relative "../migrate/01_create_students.rb"
-require_relative '../config/environment'
+

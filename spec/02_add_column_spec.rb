@@ -20,4 +20,4 @@ describe 'student' do
     student = Student.create(name: "Steven", grade: 12, birthdate: "April 5th")
     expect(Student.where(birthdate: "April 5th").first).to eq(student)
   end
-end
+end 
